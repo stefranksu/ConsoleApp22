@@ -17,7 +17,7 @@ namespace csharp_multi_threaded_server_socket
     {
         static void Main(string[] args)
         {
-            string ver = "0.0";
+            string ver = "0.1";
             TcpListener serverSocket = new TcpListener(4001);
             TcpClient clientSocket = default(TcpClient);
             int counter = 0;
